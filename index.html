@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ML CI/CD Assignment</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f3f6fb; color: #182230; }
+    main { max-width: 760px; margin: 60px auto; padding: 32px; }
+    .card { background: white; padding: 32px; border-radius: 16px; box-shadow: 0 8px 28px #172b4d14; }
+    h1 { margin-top: 0; color: #174ea6; }
+    .item { padding: 14px 0; border-bottom: 1px solid #e5eaf1; }
+    .label { color: #5b6575; display: block; font-size: 14px; margin-bottom: 5px; }
+    .value { font-size: 18px; font-weight: bold; }
+    .note { margin-top: 24px; color: #5b6575; font-size: 14px; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>Machine Learning CI/CD Pipeline</h1>
+      <p>This page is deployed using GitHub Pages after the CI checks pass.</p>
+      <div class="item"><span class="label">ML Model</span><span class="value">Random Forest Classifier</span></div>
+      <div class="item"><span class="label">Dataset</span><span class="value">Iris dataset (scikit-learn)</span></div>
+      <div class="item"><span class="label">Model accuracy</span><span class="value">Calculated during the CI run</span></div>
+      <div class="item"><span class="label">CI/CD deployment status</span><span class="value">This page is published after CI succeeds</span></div>
+      <p class="note">The model is trained and tested in GitHub Actions. This static page describes the model and deployment pipeline; its accuracy text is a project description, not a live connection to the latest workflow run.</p>
+    </section>
+  </main>
+</body>
+</html>
